@@ -21,7 +21,7 @@ proxy:
       service.beta.kubernetes.io/aws-load-balancer-ip-address-type: ipv4
 singleuser:
   image:
-    name: public.ecr.aws/654654628773/jupyter-tensorrt
+    name: public.ecr.aws/m5a4z9s8/jupyter-tensorrt
     tag: latest 
     pullPolicy: Always
     # name: public.ecr.aws/h3o5n2r0/gpu-jupyter
