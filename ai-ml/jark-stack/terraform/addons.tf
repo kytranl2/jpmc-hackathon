@@ -349,6 +349,6 @@ resource "kubernetes_config_map_v1" "notebook" {
   }
 
   data = {
-    "dogbooth.ipynb" = file("${path.module}/src/notebook/dogbooth.ipynb")
+    "lstm.ipynb" = file("${path.module}/src/notebook/lstm.ipynb")
   }
 }
